@@ -1,0 +1,44 @@
+.home-container {
+    width: 100%;
+    background-color: #cbc8d4;
+    .slider {
+        width: 100%;
+        height: 400px;
+        box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.3);
+
+        background-color: gray;
+        .text-description {
+            text-align: center;
+
+            background-color: #0b0b0b69;
+            box-shadow: 0px 3px 21px -8px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0px 3px 21px -8px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 3px 21px -8px rgba(0, 0, 0, 0.75);
+
+            .text-color {
+                color: white;
+            }
+        }
+    }
+
+    .home-wrapper {
+        background-color: #4c4073;
+        max-width: 1200px;
+        min-width: 801px;
+        width: auto;
+        box-shadow: 0 0 2.5em 0.5em rgba(204, 204, 204, 0.5);
+
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+}
+.sl-img {
+    min-width: 100vw;
+    max-height: 400px;
+    object-fit: cover;
+    background-position: center;
+}

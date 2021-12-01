@@ -1,0 +1,43 @@
+.services-component-container {
+    margin-top: 2rem;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ser-wrapper {
+        max-width: 80%;
+        display: flex;
+        flex-direction: row-reverse;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            .title {
+                font-weight: 900;
+                font-size: 1.5rem;
+            }
+            .description {
+                padding: 2rem;
+            }
+            .links {
+                background-color: #241654;
+                text-decoration: none;
+                width: fit-content;
+                padding: .5rem 1.3rem;
+                color: white;
+                &:hover {
+                    background-color: #4C4073;
+                }
+
+                span {
+                    color: white;
+                }
+            }
+        }
+    }
+}
